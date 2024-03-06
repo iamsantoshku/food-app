@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body onload='random()'>
+    <div id="registration-form">
+        <div class='fieldset'>
+          <legend>Custumer details</legend>
+          <form >
+            <div class='row'>
+              <label for='firstname'>First Name</label>
+              <input type="text" onchange='validatename()' placeholder="First Name" name='firstname' id='firstname' >
+              <span id="error1" style="color:red"></span>
+              <span id="error2" style="color:red"></span>
+            </div>
+            <div class='row'>
+              <label for="email">E-mail</label>
+              <input type="text" onchange='validmail()' placeholder="E-mail"  id="emaill">
+              <span id="error3" style="color:red"></span>
+            </div>
+            <div class='row'>
+              <label for="mob">Mob No</label>
+              <input type="text" onchange='validmob()' placeholder="enter mobile no" id="mobno" >
+              <span id="error4" style="color:red"></span>
+              <span id="succes" style="color:green"></span>
+             
+            </div>
+            <div class='row'>
+                <label for="add">Address</label>
+                <input type="text" placeholder="enter your address" id="addres" >
+            </div>
+            <table id="itemTable">
+              <thead>
+                  <tr>
+                      <th>Item</th>
+                      <th>Quantity</th>
+                      <th>Action</th>
+                  </tr>
+              </thead>
+              <tbody>
+              </tbody>
+          </table>
+          
+          <input type="text" id="foodItem" placeholder="Enter food item">
+          <div id="error" style="color: red;"></div>
+          <button id="addItem" onclick="additem()" type="button">Add Item</button>
+
+            <!-- <div class="order">
+              <table id="orderid">
+                <thead>            
+                  
+                  <input type="text" id="iteamname">
+                  <input type="text" id="itemquantity"> -->
+                    <!-- <th>Iteam Name</th>
+                    <th>quanty</th>
+              
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td>1</td> -->
+                  <!-- </tr> 
+                  <tr>
+                    <td>egg roll</td>
+                    <td>1</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button id="btn" onclick="addrow()"> Click me </button> -->
+              <!-- <button onclick='addrow()'>add item</button> -->
+            <!-- </div>
+            
+            <div class="add">
+              <h3>Add item</h3>
+              <table id="myTable">
+                <tr>
+                  <td><input type="text" name="eee" id="newitem"></td>                
+                </tr>                
+              </table>
+              <br>
+               <button type="button" id="iteam1"  onclick="myFunction()">egg roll</button>
+               <button type="button"  id="iteam2"  onclick="myFunction1()"> Biryani</button>
+               <button type="button"  id="iteam3"  onclick="myFunction2()">paneer</button>
+            </div>--> 
+            
+              <div class="captc">
+                <div class="en">
+                  <h4>
+                    Enter Captcha
+                  </h4>
+                </div>
+                <tr>
+                  <td>
+                     <input type="text" id="capt"readonly="readonly"/> 
+                     <input type="button" id="refresh" value="Refresh" onclick="random();" />
+                     <input type="text" id="captchafill"/> 
+                     <input id="Button1" type="button" value="Check" onclick="validcap()();"/>
+                     <span id="error" style="color:red"></span>
+                     <span id="success" style="color:green"></span>
+                  </td>
+               </tr>     
+              </div>
+                               
+           <!-- </table>                         -->
+            <div class="submitee">
+                <a onclick="submit()" href="./welcome.html"><h2>submit</h2></a>
+            </div>
+            
+          </form>
+        </div>
+
+        <!-- <div class="captacha">
+            <input type="text" placeholder="inter captcha" id="captcha" >            
+        </div> -->
+      </div>
+    
+</body>
+</html>

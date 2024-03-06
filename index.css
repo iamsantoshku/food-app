@@ -1,0 +1,314 @@
+body{
+    /* background:#837070; */
+    background: url(img\back.jpg);
+    background-image: url(img\back.jpg);
+  }
+.background img{
+  height: 100vw;
+  width: 100vw;
+}
+  
+  #registration-form {
+    font-family:'Open Sans Condensed', sans-serif;
+    width: 600px;
+    min-width:250px;
+    height: 20vw;
+    margin: 20px auto;
+    /* position: relative; */
+  }
+  
+  #registration-form .fieldset {
+    background-color:#d5d5d5;
+    border-radius: 3px;
+    
+  }
+  
+   #registration-form legend {
+    text-align: center;
+    /* background: #364351; */
+    background: #5c90c7;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 3px 3px 0 0;
+    color: white;
+  font-size:2em;
+  }
+  
+  .fieldset form{
+    border:1px solid #2f2f2f;
+    margin:0 auto;
+    display:block;
+    width:100%;
+    padding:30px 20px;
+    box-sizing:border-box;
+    border-radius:0 0 3px 3px;
+  }
+  .placeholder #registration-form label {
+    display: none;
+  }
+   .no-placeholder #registration-form label{
+  margin-left:5px;
+    position:relative;
+    display:block;
+    color:grey;
+    /* color: #23cb26; */
+    text-shadow:0 1px white;
+    font-weight:bold;
+  }
+  /* all */
+  ::-webkit-input-placeholder { text-shadow:1px 1px 1px white; font-weight:bold; }
+  ::-moz-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* firefox 19+ */
+  :-ms-input-placeholder { text-shadow:0 1px 1px white; font-weight:bold; } /* ie */
+  #registration-form input[type=text] {
+     padding: 15px 20px;
+     border-radius: 1px;
+    margin:5px auto;
+    background-color:#f7f7f7;
+    border: 1px solid silver;
+  
+    -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.2);
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2), 0 1px rgba(255,255,255,.8);
+    width: 100%;
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    
+  }
+  .no-placeholder #registration-form input[type=text] {
+    padding: 10px 20px;
+  }
+  
+  #registration-form input[type=text]:active, .placeholder #registration-form input[type=text]:focus {
+    outline: none;
+    border-color: silver;
+    background-color:white;
+  }
+  
+  #registration-form input[type=submit] {
+    font-family:'Open Sans Condensed', sans-serif;
+    text-transform:uppercase;
+    outline:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #5C8CA7;
+    padding: 10px;
+    color: white;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+    position:relative;
+    top:0;
+  }
+  
+  #registration-form input[type=submit]:hover {
+    background-color: #2980b9;
+  }
+  
+  #registration-form input[type=submit]:active {
+  background:#5C8CA7;
+  }
+  
+  
+  .parsley-error-list{
+  background-color:#C34343;
+  padding: 5px 11px;
+  margin: 0;
+  list-style: none;
+  border-radius: 0 0 3px 3px;
+  margin-top:-5px;
+    margin-bottom:5px;
+    color:white;
+    border:1px solid #870d0d;
+    border-top:none;
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+    top:-1px;
+    text-shadow:0px 1px 1px #460909;
+      font-weight:700;
+    font-size:12px;
+  }
+  .parsley-error{
+    border-color:#870d0d!important;
+    border-bottom:none;
+  }
+  #registration-form select{
+    width:100%;
+    padding:5px;
+  }
+  ::-moz-focus-inner {
+    border: 0;
+  }
+.submitee{
+    height: 3vw;
+    width: 35vw;
+    background-color: #2980b9;
+    /* color: #d5d5d5;   */
+    border-radius: 6px;
+    list-style: none;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* font-size: 25px; */
+    text-decoration: none;
+    margin-top: -7vw;
+}
+.submitee h2{
+    color: white;
+    /* list-style: none; */
+    text-decoration: none;
+    margin-top: -1px;
+}
+.captacha{
+  height: 6vw;
+  width: 10vw;
+  /* background-color: #5C8CA7; */
+}
+.refre{
+  height: 30px;
+  width: 30px;
+  margin-bottom: 12vw;
+  margin-left: 15vw;
+}
+ img{
+  margin-top: -8vw;
+}
+#Button1{
+  margin-left: 0vw;
+  margin-bottom: 10vw;
+}
+#myTable{
+  border: 1px solid black;
+}
+img{
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+}
+h3{
+  color: darkgreen;
+}
+#myTable{
+  background-color: aquamarine;
+  height: 5vw;
+  width: 30vw;
+  border-radius: 10px;
+}
+#iteam1{
+  background-color: #eb1f1f;
+  border-radius: 8px;
+  height: 2vw;
+  width: 5vw;
+  cursor: pointer;
+}
+#iteam2{
+  background-color: #eb1f1f;
+  border-radius: 8px;
+  height: 2vw;
+  width: 5vw;
+  cursor: pointer;
+}
+#iteam3{
+  background-color: #3ce000;
+  border-radius: 8px;
+  height: 2vw;
+  width: 5vw;
+  cursor: pointer;
+}
+#Button1{
+  background-color: #eb1f1f;
+  border-radius: 8px;
+  height: 2vw;
+  width: 5vw;
+
+}
+#refresh{
+  background-color: #23cb26;
+  border-radius: 8px;
+  height: 2vw;
+  width: 5vw;
+
+}
+#capt{
+  background-color: #c7675c;
+}
+input{
+  background-color: rgb(70, 176, 176);
+}
+/* table,
+      td,
+      th {
+         border: 1px solid black;
+      } */
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+    }
+    
+    th, td {
+        padding: 4px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+    }
+    
+    .table-button {
+        background-color: #7e807d;
+        color: white;
+        padding: 0px 5px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 0 6px;
+        font-size: 0.8em;
+    }
+    
+    .table-button:hover {
+        background-color: #4A7D0E;
+    }
+    .delete-button {
+      background-color: #ce5f5f;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 0 2px;
+      font-size: 0.8em;
+  }
+  
+  .delete-button:hover {
+      background-color: #b00c0c;
+  }
+
+#addItem{
+  background-color: #3ce000;
+  border-radius: 8px;
+  height: 2vw;
+  width: 7vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 15vw;
+  
+}
+#foodItem{
+  color: #5c90c7;
+  background-color: antiquewhite;
+}
